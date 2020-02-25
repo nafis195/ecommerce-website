@@ -54,3 +54,14 @@ style.css
     background-repeat: no-repeat;
     background-position: 0px 200px;
 }
+
+.card{
+    border: none;
+    box-shadow: 5px 5px 10px lightgrey;
+    border-radius: 10px;
+}
+
+.see-more{
+    color: #ffce1a;
+    cursor: pointer;
+}
