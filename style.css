@@ -28,17 +28,18 @@ style.css
 }
 
 .carousel-indicators li {
-    width: 20px;
-    height: 6px;
-    cursor: pointer;
-    background-color: darkgray; 
+    width: 12px;
+    height: 12px;
+    border-radius: 10px;
+    border-top: 1px solid transparent;
+    border-bottom: 1px solid transparent;
+    background-color: #cecece;
 }
 
-.carousel-indicators .active {
-    width: 20px;
-    height: 6px;
-    cursor: pointer;
-    background-color: orange;
+.carousel-indicators li.active {
+    width: 45px;
+    height: 10px;
+    background-image: linear-gradient(142deg, #ff9c35 0%, #ffd019 100%)
 }
 
 .carousel-control-prev, .carousel-control-next {
@@ -65,3 +66,14 @@ style.css
     color: #ffce1a;
     cursor: pointer;
 }
+
+.title::after{
+    content: none;
+    background-image: linear-gradient(45deg, #FF9C35, #FFD019);
+    height: 20px;
+    width: 20%;
+    border-radius: 10px;
+    bottom: 0;
+    left: calc(50% - 10%);
+}
+
