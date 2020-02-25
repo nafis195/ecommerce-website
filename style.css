@@ -10,9 +10,47 @@ style.css
 
 
 .container{
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 
-.carousel-indicators{
-    color: orange;
+.navbar{
+    border-bottom: 1px solid #eee;
+}
+
+.buy-now-button{
+    color: white;
+    border: none;
+    background-color: black;
+    border-radius: 10px;
+    padding: 8px 20px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.carousel-indicators li {
+    width: 20px;
+    height: 6px;
+    cursor: pointer;
+    background-color: darkgray; 
+}
+
+.carousel-indicators .active {
+    width: 20px;
+    height: 6px;
+    cursor: pointer;
+    background-color: orange;
+}
+
+.carousel-control-prev, .carousel-control-next {
+    display: none;
+}
+
+.carousel-item{
+    padding: 10px 40px;
+}
+
+.carousel-bg{
+    background-image: url("images/dotted-bg.PNG");
+    background-repeat: no-repeat;
+    background-position: 0px 200px;
 }
