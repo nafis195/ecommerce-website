@@ -67,13 +67,22 @@ style.css
     cursor: pointer;
 }
 
-.title::after{
+.category-title hr{
     content: none;
     background-image: linear-gradient(45deg, #FF9C35, #FFD019);
-    height: 20px;
-    width: 20%;
+    height: 10px;
+    width: 10%;
     border-radius: 10px;
     bottom: 0;
     left: calc(50% - 10%);
 }
 
+.container img{
+    width: 120%;
+}
+
+.category-bag, .category-perfume, .category-shoe{
+    padding: 30px 30px;
+    box-shadow: 5px 5px 10px lightgrey;
+    border-radius: 10px;
+}
