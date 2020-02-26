@@ -77,7 +77,7 @@ style.css
     left: calc(50% - 10%);
 }
 
-.container img{
+.container.category-area img{
     width: 120%;
 }
 
